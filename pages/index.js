@@ -19,9 +19,10 @@ export default function Home() {
           <div className={styles.name}>
               Andrew Ferruolo
           </div>
-          <LinkButton text={'LinkedIn'} link={'https://linkedin.com/in/andrew-ferruolo'}/>
+          <LinkButton text={'LinkedIN'} link={'https://linkedin.com/in/andrew-ferruolo'}/>
           <LinkButton text={'X.com'} link={'https://x.com/FerruoloA'}/>
-          <LinkButton text={'contact'} link={'ContactCard'} />
+          <LinkButton text={'GitHub'} link={'https://github.com/andrew-ferruolo'}/>
+          <LinkButton text={'contAct'} link={'ContactCard'} />
       </main>
   );
 }
