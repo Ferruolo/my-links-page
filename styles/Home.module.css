@@ -30,4 +30,23 @@
 
 }
 
+.profilePicBox {
+  margin: 5vh auto 0 auto;
+  display: flex;
+}
+
+.profilePicImg {
+  border-radius: 50%;
+}
+
+.contactsName {
+  margin: 5vh auto 0 auto;
+  font-size: 4vh;
+}
+
+.contactLineItem {
+  margin: 5vh auto 0 auto;
+  text-align: center;
+}
+
 
