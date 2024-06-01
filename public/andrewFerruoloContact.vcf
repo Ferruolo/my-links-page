@@ -7,7 +7,6 @@ item1.EMAIL;TYPE=INTERNET:ferruolo@umich.edu
 item1.X-ABLabel:Michgan
 TEL;TYPE=HOME:(860) 999-4565
 NOTE:Preferred Contact Method\:Text
-PHOTO:https://andrew-ferruolo-links.vercel.app/_next/image?url=/Headshot.jpeg&w=128&q=75
- Xw_QnfKawbtAt_t_y8ipq8IPMbsWU
+PHOTO:https://andrew-ferruolo-links.vercel.app/_next/image?url=%2FHeadshot.jpeg&w=128&q=75
 CATEGORIES:myContacts
 END:VCARD
