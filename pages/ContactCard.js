@@ -34,7 +34,7 @@ export default function ContactCard() {
 
 
 
-        <LinkButton text={"Return to Home"} link={'/'}/>
+        <LinkButton text={"back"} link={'/'}/>
     </main>
 
 }
