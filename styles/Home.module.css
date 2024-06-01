@@ -23,7 +23,7 @@
   margin: 5vh auto 0 auto;
   text-align: center;
   width: 50vw;
-  height: 10vh;
+  height: 8vh;
   font-size: 3vh;
   border: 3px solid black;
   border-radius: 50px;
@@ -31,7 +31,7 @@
 }
 
 .profilePicBox {
-  margin: 5vh auto 0 auto;
+  margin: 0 auto 0 auto;
   display: flex;
 }
 

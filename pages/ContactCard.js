@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import {Major_Mono_Display} from "next/font/google";
 import Image from "next/image";
-
+import LinkButton from "../Components/LinkButton";
 
 const majorMono = Major_Mono_Display({weight: '400', preload: false})
 
@@ -20,14 +20,21 @@ export default function ContactCard() {
             Andrew Ferruolo
         </div>
         <div className={styles.contactLineItem}>
-            phone: (860)-999-4565
+            phone: <a href="tel:8609994565">(860)-999-4565</a>
         </div>
         <div className={styles.contactLineItem}>
-            personal email: andrew.ferruolo@gmail.com
+            personal email: <a href={"mailto:andrew.ferruolo@gmail.com"}>andrew.ferruolo@gmail.com</a>
         </div>
         <div className={styles.contactLineItem}>
-            umich email: <br></br>ferruolo@umich.edu
+            umich email: <br></br><a href={"mailto:ferruolo@umich.edu"}>ferruolo@umich.edu</a>
         </div>
+        <button className={styles.linkButton}>
+            <a href="/api/download" target="_blank">download contact</a>
+        </button>
+
+
+
+        <LinkButton text={"Return to Home"} link={'/'}/>
     </main>
 
 }

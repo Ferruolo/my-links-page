@@ -1,24 +1,13 @@
 import styles from '../styles/Home.module.css';
 import { Major_Mono_Display } from 'next/font/google'
 import {useState} from "react";
+import LinkButton from "../Components/LinkButton";
 import {useRouter} from "next/router";
 
 
 const majorMono = Major_Mono_Display({weight: '400', preload: false})
 
 
-const LinkButton = ({text, link}) => {
-    const router = useRouter();
-
-    const redirect = e => {
-        e.preventDefault();
-        router.push(link);
-    }
-
-    return <button className={styles.linkButton} onClick={redirect}>
-        {text}
-    </button>
-}
 
 
 export default function Home() {
