@@ -17,7 +17,7 @@ export default function Home() {
     return (
       <main className={`${styles.container} ${majorMono.className}`}>
           <div className={styles.name}>
-              Andrew Ferruolo
+              Andrew ferruolo
           </div>
           <LinkButton text={'LinkedIN'} link={'https://linkedin.com/in/andrew-ferruolo'}/>
           <LinkButton text={'X.com'} link={'https://x.com/FerruoloA'}/>
