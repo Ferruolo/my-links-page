@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <LinkButton text={'LinkedIN'} link={'https://linkedin.com/in/andrew-ferruolo'}/>
           <LinkButton text={'X.com'} link={'https://x.com/FerruoloA'}/>
-          <LinkButton text={'GitHub'} link={'https://github.com/andrew-ferruolo'}/>
+          <LinkButton text={'GitHub'} link={'https://github.com/ferruolo'}/>
           <LinkButton text={'contAct'} link={'ContactCard'} />
       </main>
   );
