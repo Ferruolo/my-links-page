@@ -22,9 +22,6 @@ export default function Home() {
           <LinkButton text={'LinkedIn'} link={'https://linkedin.com/in/andrew-ferruolo'}/>
           <LinkButton text={'X.com'} link={'https://x.com/FerruoloA'}/>
           <LinkButton text={'contact'} link={'ContactCard'} />
-
-
-
       </main>
   );
 }
