@@ -2,6 +2,7 @@ import "../styles/reset.css"
 import Head from "next/head";
 
 
+
 const MyApp = ({ Component, pageProps }) => {
     return <>
         <Head>
