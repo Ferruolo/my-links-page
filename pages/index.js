@@ -11,8 +11,6 @@ const majorMono = Major_Mono_Display({weight: '400', preload: false})
 
 
 export default function Home() {
-    const [popupText, setPopupText] = useState("")
-    const [opacity, setOpacity] = useState(0);
 
     return (
       <main className={`${styles.container} ${majorMono.className}`}>
